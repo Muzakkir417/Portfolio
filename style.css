@@ -1,9 +1,12 @@
-img{
+.me{
     height:25%;
     width:25%;
-    margin-left:38%;
     margin-top:10px;
-    border:5px solid #9D6638;
+    /* border:5px solid #9D6638; */
+    float:left;
+    margin-right:10%;
+    margin-left:25%;
+    border-radius:50%
 }
 #text{
     text-align:center;
@@ -17,13 +20,20 @@ html{
 a{
     color:black
 }
-body>h2,li,p{
-    font-size:1.75rem;
+.about{
+    font-size:2rem;
+    display:inline-block;
+    width:100%
+
 }
-div>p{
+.info{
     background:#4E220F;
+    font-size:2rem;
     height:50px;
     color:#F7F1DE;
+    margin:0px;
+    text-align:right;
+    padding-right:30px
 }
 hr{
     background-color: #9D6638;
