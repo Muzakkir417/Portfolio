@@ -30,7 +30,7 @@ a{
 .info{
     display:flex;
     text-decoration: underline;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 50px;
     margin-top: 20px;
     background:#4E220F;
@@ -49,11 +49,10 @@ hr{
 #skill-learn{
     font-size:1.75rem;
     display:flex;
-    gap:400px
+    justify-content:space-between;
+    flex-shrink:1;
 }
-#skill-learn > div{
-    text-align:left;
-}
+
 #about{
     font-size:1.5rem
 }
