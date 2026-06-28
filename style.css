@@ -2,7 +2,6 @@
     height:22%;
     width:22%;
     margin-top:10px;
-    /* border:5px solid #9D6638; */
     float:left;
     margin-right:10%;
     margin-left:25%;
@@ -55,4 +54,24 @@ hr{
 
 #about{
     font-size:1.5rem
+}
+@media (max-width: 970px) {
+  h1 {
+    font-size: rem;
+    text-align: center;
+  }
+  .about{
+    display:flex;
+    flex-direction:column;
+
+  }
+  .me{
+    width:40%;
+  }
+  h3{
+    font-size:2rem;
+  }
+  #skill-learn{
+    font-size:1rem;
+  }
 }
