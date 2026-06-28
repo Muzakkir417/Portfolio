@@ -1,10 +1,6 @@
 .me{
     height:22%;
     width:22%;
-    margin-top:10px;
-    float:left;
-    margin-right:10%;
-    margin-left:25%;
     border-radius:50%
 }
 #text{
@@ -29,9 +25,19 @@ a{
     font-size:2rem;
     padding:20px;
 }
+.about a{
+    font-size:1.3rem;
+}
+#abouttext{
+    display:flex;
+    flex-direction:column;
+}
+.Hobbies{
+    margin-top:50px;
+}
 .info{
     display:flex;
-    text-decoration: underline;
+    text-decoration: none;
     justify-content: space-evenly;
     gap: 50px;
     margin-top: 20px;
@@ -51,10 +57,38 @@ hr{
 #skill-learn{
     font-size:1.75rem;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     flex-shrink:1;
 }
+h1{
+    font-size:2.2rem;
+  }
+h2{
+    font-size:1.5rem;
+}
+h3{
+    font-size:1.3rem;
+    margin:0;
+}
+ul{
+    margin:0;
+}
+p{
+    font-size:1rem;
+    line-height:1.6;
+}
+li{
+    font-size:1rem;
+    line-height:1.5;
+}
 
+ul{
+    padding-left:0;
+    list-style-position:inside;
+}
+a{
+    font-size:1rem;
+}
 #about{
     font-size:1.5rem
 }
