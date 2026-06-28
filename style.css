@@ -57,7 +57,7 @@ hr{
 }
 @media (max-width: 970px) {
   h1 {
-    font-size: rem;
+    font-size: 3rem;
     text-align: center;
   }
   .about{
